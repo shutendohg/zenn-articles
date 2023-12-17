@@ -161,6 +161,7 @@ tool/bssl client -curves <KEX> -connect localhost:4433
 サーバー側は
 ``` sh
 $ tool/bssl server -accept 4433 -sig-alg  falcon1024  -loop
+# client側実行後に以下が出力されるため、初回実行時は待ち状態になります
 Connected.
   Version: TLSv1.3
   Resumed session: no
