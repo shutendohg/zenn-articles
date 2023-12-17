@@ -33,7 +33,7 @@ forkの動機については[ImperialViolet](https://www.imperialviolet.org/2014
 [Wikipedia](https://ja.wikipedia.org/wiki/OpenSSL#BoringSSL)情報で恐縮ですが、双方今後も協力していくという方針になっているようです。
 
 そしてさらにPQCアルゴリズムに対応するためにOQS ProjectによってさらにforkされたBoringSSLが[OQS-BoringSSL](https://github.com/open-quantum-safe/boringssl)になります。
-READMEによると以下のTLS 1.3をサポートしています。残念ながらハイブリッド証明アルゴリズムについては未サポートのようです。
+READMEによると以下のTLS 1.3をサポートしています。残念ながらハイブリッド署名アルゴリズムについては未サポートのようです。
 > - quantum-safe key exchange to TLS 1.3
 > - hybrid (quantum-safe + elliptic curve) key exchange to TLS 1.3
 > - quantum-safe digital signatures to TLS 1.3
